@@ -1,6 +1,6 @@
 ## Overview
 
-In HTML, the way text is displayed (whether it appears on a new line or on the same line) depends on the HTML element being used and the default rendering behavior of browsers.
+In HTML, the way text is displayed (whether it appears on a new line or on the same line) depends on the HTML element being used and the default rendering behaviour of browsers.
 
 Here are some common scenarios:
 
@@ -36,4 +36,4 @@ Here are some common scenarios:
    <p>Line 1<br>Line 2</p>
    ```
 
-**Note:** Remember that CSS can also influence how elements are displayed. CSS properties like `display` and `white space` can affect whether elements are displayed on the same line or on separate lines. Additionally, CSS can be used to control spacing, alignment, and layout, allowing you to achieve specific visual effects for your content.
+**Note:** Remember that CSS can also influence how elements are displayed. CSS properties like display and whitespaces can affect whether elements are displayed on the same line or on separate lines. Additionally, CSS can be used to control spacing, alignment, and layout, allowing you to achieve specific visual effects for your content.
