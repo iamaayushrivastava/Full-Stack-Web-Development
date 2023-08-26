@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="Redirect Page.html">
+
+    <!--
+    In this case, the text "Enter Name:" is just plain text that appears before the input field.
+    While users can still interact with the input field, there are a few drawbacks:
+
+    1. No Clickable Area: The text "Enter Name:" itself is not directly associated with the input field.
+    Users cannot click on the label text to focus on or activate the input field.
+
+    2. Accessibility: Screen readers won't necessarily associate the text "Enter Name:" with the input field,
+    potentially leading to confusion for users relying on screen readers.
+    -->
+
+    Enter Name: <input type ="text" name=" " placeholder="Enter Name">
+
+    <label for = "N">Enter Name: </label>
+    <input id = "N" type ="text" name=" " placeholder="Enter Name">
+    <input type ="submit" value="Login">
+    
+    <!--
+    Using the <label> tag improves accessibility, usability, and user experience by creating a clear connection between the label text and the input field,
+    providing a clickable area, and enhancing the overall clarity of the form. 
+    -->
+
+    </form>
+</body>
+</html>
